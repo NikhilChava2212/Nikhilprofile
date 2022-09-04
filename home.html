@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title> HOME PAGE</title>
+        <link rel="icon" href="N.jpg"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="home.css">
+
+        <style>
+            body{
+                background-color:white;
+                color:black
+            }
+            .mydark{
+                background-color:black;
+                color:white
+            }
+        </style>
+        <script>
+            const changeMode=()=>{
+                let mybody = document.body;
+                mybody.classList.toggle('mydark')
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="social">
+                <span class="glyphicon glyphicon-certificate" onClick="changeMode()"></span>
+            </div> 
+            <div class="brand">
+                <img class="brandimage" src="N.jpg" alt="N">
+                NIKHIL's Payments BANK</div>
+        </header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#devNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="devNav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">DASH BOARD</a></li>
+                        <li><a href="#">ACCOUNT SUMMARY</a></li>
+                        <li><a href="#">ACCOUNT STATEMENT</a></li>
+                        <li><a href="#">DEPOSTS</a></li>
+                        <li><a href="#">PROFILE</a></li>
+                        <li><a href="#">Bill Payments</a></li>
+                        <li><a href="#">FAQ's</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-log-out"></span> LogOUT
+                            </a>
+                        </li>
+                    </ul>
+                </div> 
+
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron" >
+              <h3>THE PAGE IS CURRENTLY UNDER MAINTAINENCE</h3> 
+              <p> please come back after some time</p>
+            </div>    
+          </div>
+    </body>
+    <footer>
+        <h4> &copy NIKHIL's Payments BANK, All rights reserved</h4>
+        <div class="fotDiv">
+            <ul>
+                <li>About NPB</li>
+            </ul>
+        </div>
+        <div class="fotDiv">
+            <ul>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="fotDiv ">
+            <ul>
+                <li>LEARN MORE</li>
+            </ul>
+        </div>
+
+    </footer>
+</html>

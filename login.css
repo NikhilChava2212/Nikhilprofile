@@ -1,0 +1,62 @@
+header{
+    height: 70px;
+    background-color: #3a9345;
+}
+.brand{
+    font-size: 48px;
+    text-align: center;
+    font-style: inherit7 HN MJ BY5;
+}
+.brandimage{
+    height: 34px;
+}
+img {
+    vertical-align: inherit;
+}
+.social{
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.box{
+    height: 450px;
+    width: 100%;
+    margin-top: 2%;
+}
+.container{
+    height: 400px;
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 3.3%;
+    float: left;
+    background-color: rgb(82, 236, 182);
+}
+.imagediv{
+    height: 400px;
+    float: left;
+    width: 45%;
+    margin-top: 2%;
+    margin-left: 3.3%;
+    background-color: aquamarine;
+}
+.img-responsive{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    height: 100px;
+    margin-top: 5%;
+    background-color: rgb(128, 207, 160);
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.fotDiv{
+    height: 20px;
+    width:33%;
+    border: 2px black;
+    float:left;
+    border-right: 2px solid white;
+    border: none;
+}

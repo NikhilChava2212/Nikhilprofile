@@ -1,0 +1,49 @@
+header{
+    height: 70px;
+    background-color: #3a9345;
+}
+.brand{
+    font-size: 48px;
+    text-align: center;
+    font-style: inherit7 HN MJ BY5;
+}
+.brandimage{
+    height: 34px;
+}
+img {
+    vertical-align: inherit;
+}
+.social{
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.jumbotron{
+    height: 400px;
+    width: 100%;
+    color: blueviolet;
+    background-color: white;
+    background-image: url("maintainence.jpg");
+    background-repeat: no-repeat, repeat;
+    text-align: right;
+}
+.container-fluid{
+    background-color: rgb(128, 207, 160);
+}
+footer{
+    height: 100px;
+    margin-top: 5%;
+    background-color: rgb(128, 207, 160);
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.fotDiv{
+    height: 20px;
+    width:33%;
+    border: 2px black;
+    float:left;
+    border-right: 2px solid white;
+    border: none;
+}
